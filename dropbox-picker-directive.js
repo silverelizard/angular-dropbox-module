@@ -1,3 +1,13 @@
+/*
+~ angular-dropbox-picker
+~ 
+~ Built around Dropbox Chooser API
+~ Docs: https://www.dropbox.com/developers/chooser
+~
+~ (c) Corrine Olson
+~ License: MIT
+*/
+
 (function DBDirectiveModule() {
   'use strict';
 
