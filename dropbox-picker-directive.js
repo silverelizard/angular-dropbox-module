@@ -55,6 +55,7 @@
     function dropboxSuccess(files){
       $scope.$apply(function() {
         for (var i = 0; i < files.length; i++) {
+          vm.dbpickerFiles = [];
           vm.dbpickerFiles.push(files[i]);
         }
       });

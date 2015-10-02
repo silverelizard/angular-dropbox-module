@@ -1,0 +1,15 @@
+<html>
+	<head>
+    <title>Dropbox Directive Demo</title>
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="YOUR_APP_KEY"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+    <script src="../dropbox-picker-directive.js"></script>
+    <script src="demo/demo-app.js"></script>
+	</head>
+	<body>
+    <div ng-app="app">
+      <button drop-box-picker dbpicker-files="vm.files">Choose from Dropbox</button>
+      Files Selected: {{vm.files}}
+    </div>
+	</body>
+</html>

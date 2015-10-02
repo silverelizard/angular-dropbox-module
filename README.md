@@ -20,3 +20,5 @@ angular
       });
     }]);
 ```
+
+See the demo for a more complete example. Remember, you will need an Dropbox Chooser app key!
