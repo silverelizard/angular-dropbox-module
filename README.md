@@ -11,7 +11,7 @@ Example Usage:
 
 ```JavaScript
 angular
-    .module('app', [dropbox-picker'])
+    .module('app', ['dropbox-picker'])
     .config(['DropBoxSettingsProvider', function(DropBoxSettingsProvider) {
       DropBoxSettingsProvider.configure({
         linkType: 'direct',
